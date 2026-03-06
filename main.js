@@ -15,3 +15,17 @@ newTree.levelOrderForEach((item)=>{
 newTree.preOrderForEach((item)=>{
     console.log(`from preOrder ${item}`)
 })
+newTree.inOrderForEach((item)=>{
+    console.log(`from inOrder ${item}`)
+})
+newTree.postOrderForEach((item)=>{
+    console.log(`from postOrder ${item}`)
+})
+
+console.log(newTree.height(4));
+console.log(newTree.depth(4));
+console.log(newTree.height(6));
+console.log(newTree.depth(6));
+console.log(newTree.height(11));
+console.log(newTree.depth(11));
+console.log(newTree.isBalanced());
